@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box">
+        <img src="pingPongImg.jpg" alt="Slapping a woman">
+        <h1 id="title">Ping Pong Score Keeper</h1>
+
+        
+        <div id="overlay">
+            <select name="points" id="points">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+                <option value="9">9</option>
+                <option value="11">11</option>
+                <option value="13">13</option>
+                <option value="15">15</option>
+                <option value="17">17</option>
+                <option value="19">19</option>
+                <option value="21">21</option>
+            </select>
+            <button id="startButton">Start</button>
+        </div>
+        
+        <div id="scoresContainer">
+            <h1 class="score" id="scorePlayerOne">0</h1>
+            <div id="whiteLine"></div>
+            <h1 class="score" id="scorePlayerTwo">0</h1>
+        </div>
+        
+        <button id="newGameButton">New Game</button>
+        <div id="buttonsContainer">
+            <button class="scoreButton" id="scoreButtonOne">Player One Scores</button>
+            <button class="scoreButton" id="scoreButtonTwo">Player Two Scores</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
