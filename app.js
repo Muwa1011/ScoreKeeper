@@ -14,6 +14,8 @@ let finalScore = 0;
 
 let playing = false
 
+//test
+
 newGameButton.addEventListener('click', function (e) {
     on();
 })
